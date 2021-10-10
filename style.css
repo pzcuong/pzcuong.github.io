@@ -1,0 +1,173 @@
+body {
+  background-color: rgba(33,38,50,255);
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  line-height: 1px;
+  font-family: Helvetica;
+  font-size: 30px;
+}
+
+hr {
+  line-height: 1cm;
+  margin: 10% auto
+}
+
+#data_div {
+  color: #868686;
+}
+
+#intro {
+  font-family: arial; 
+  color: #a6abb7
+}
+
+.container_swap { 
+  width: 70%;
+  position: absolute; 
+  margin: 0 15% auto;
+}
+
+.container_4div_swap { 
+  position: absolute; 
+  margin: 20% 5% auto;
+}
+
+.div_1 {
+  padding: 10px;
+  width: 22%;
+  float: left;
+  background-color: #f6f6f6;
+  border: 5px solid #222632;
+  border-top: 5px solid #6697ee;
+  border-radius: 25px;
+}
+
+.div_2 {
+  padding: 10px;
+  width: 22%;
+  float: left;
+  background-color: #f6f6f6;
+  border: 5px solid #222632;
+  border-top-color: #debb66;
+  border-radius: 25px;
+}
+
+.div_3 {
+  padding: 10px;
+  width: 22%;
+  float: left;
+  background-color: #f6f6f6;
+  border: 5px solid #222632;
+  border-top: 5px solid #6697ee;
+  border-radius: 25px;
+}
+
+.div_4 {
+  padding: 10px;
+  width: 22%;
+  float: left;
+  background-color: #f6f6f6;
+  border: 5px solid #222632;
+  border-top: 5px solid #6697ee;
+  border-radius: 25px;
+}
+
+.div_left { 
+  width: 45%;
+  float: left;
+}
+
+.div_right {
+  width: 40%;
+  float: right;
+  border: 15px solid #363a45;
+  background-color: #363a45;
+}
+
+#btn {
+  background-color: #d12d80;
+  width: 100%;
+  color: white;
+  border: 1px solid #363a45;
+  cursor: pointer;
+  padding: 15px 32px;
+  font-size: 15px;
+  transition-duration: 0.4s;
+}
+
+.btnFree {
+  background-color: white;
+  width: 100%;
+  color: black;
+  border: 1px solid #363a45;
+  cursor: pointer;
+  hover: green;
+  padding: 15px 32px;
+  font-size: 15px;
+  transition-duration: 0.4s;
+}
+
+#price {
+  font-size: 40px;
+  line-height: 1px;
+}
+
+#popular {
+  clear: both;
+  border: 1px hide;
+  color: white;
+  background-color: #d12d80;
+}
+
+#line-height {
+  line-height: 1px;
+}
+
+#btn:hover {
+  background-color: green;
+}
+
+.btnFree:hover {
+  background-color: yellow;
+}
+
+.popup_1 {
+    display: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    witdth: 25%;
+    padding: 20px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    margin: -25px 0 0 -25px;
+}
+
+.input {
+    border: 1px solid #ccc;
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.button_accept {
+  margin: 0 30% auto;
+  border: 1px solid #363a45;
+  cursor: pointer;
+  padding: 10px 30px;
+  width: 35%;
+}
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
