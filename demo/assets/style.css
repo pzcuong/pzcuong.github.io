@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f5a05c url("./image/BG\ Shape.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 100vh;
+    font-family: 'Poppins',  sans-serif;;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.navigation {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.logo {
+    padding-left: 80px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    gap: 0 50px;
+    padding-right: 80px;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+
+.data {
+    position: relative;
+    width: 45%;
+    padding-top: 10%;
+    padding-left: 10%;
+    font-family: Roboto;
+}
+
+.name {
+    display: inline-block;
+    padding-top: 40px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 60px;
+}
+
+.data p {
+    font-size: 25px;
+    padding-top: 4%;
+    padding-left: 3%;
+}
+
+.data p .typed {
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+
+.data button {
+    background-color: #01847F;
+    color: white;
+    margin: 5% 15% auto;
+    width: 40%;
+    padding: 12px 30px;
+    border: oldlace;
+}
+
+.data button a {
+    text-decoration: none;
+    color: white;
+}
+
+.container .image {
+    position: absolute;
+    left: 55%;
+    top: 13%;
+}
+
+.container .image img {
+    height: 500px;
+    transform: rotate(4deg);
+}
+
+.rectangle {
+    position: absolute;
+    height: 500px;
+    width: 375px;
+    top: 1%;
+    background-color: #44A1A0;
+    z-index: -1;
+}
+
+#about {
+    margin-top: 50%;
+    height: 500px;
+    width: 600px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 25%;
+}
+
+#about .infor {
+   font-family: 'Roboto';
+   align-items: center;
+   padding-top: 30%;
+   padding-left: 5%;
+   padding-right: 5%;
+   line-height: 30px;
+}
+
+#about .infor h1 {
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+#contact {
+    margin-top: 50%;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.contact_tab {
+    display: flex;
+    background-color: white;
+    width: 60%;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+#contact .my_infor_tab h2 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+#contact .my_infor_tab p {
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+#contact .contact_tab input {
+    border:none;
+    border-bottom: 1px solid;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.my_infor_tab {
+    background-color: #20c997;
+    color: white;
+    padding: 10px;
+    width: 40%;
+}
+
+h4 {
+    font-weight: 400;
+}
+

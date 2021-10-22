@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./assets/script.js"></script>
+</head>
+<body>
+    <div class="navigation">
+        <div class="logo">
+            <a href="./index.html"><h1>C.</h1></a>
+        </div>
+        <ul class="nav-items">
+            <li>
+                <a href="#intro">intro</a>
+            </li>
+            <li>
+                <a href="#about">about</a>
+            </li>
+            <li>
+                <a href="#contact">contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="intro">
+        <div class="container">
+            <div class="data">
+                <p><span class="typed"></span></p>
+                <h1><span class="name">クオン</span>と申します、 </h1>
+                <p>UIT大学の学生でございます。</p>
+                <button><a href="https://www.facebook.com/phamcuong21/">Contact Me</a></button>
+            </div>
+            
+            <div class="image">
+                <img src="./assets/image/avatar2.jpg" alt="">
+                <div class="rectangle"></div>
+            </div>
+        </div>
+    </div>
+    
+    <section id="about">
+        <div class="infor">
+            <h1>About me</h1>
+            <p>
+                I'm a front-end developer with passionate about coding and solving problems through code. I'm currently expanding my skills in JavaScript and diving into back-end development to become a fullstack developer.
+                I am excited to work alongside other amazing programmers and learn so much more!
+            </p>
+        </div>
+    </section>
+
+    <div id="contact">
+        <h1></h1>
+        <div class="my_infor_tab">
+            <h2>Let's get in touch</h2>
+            <div class="address">
+                <p><span class="title">Address: </span>Tan Phu Trong Halmet, Tan Phu Tay Village, Mo Cay Bac District, Ben Tre City.</p>
+                <p><span class="title">Phone: </span>+84 387 152 838</p>
+                <p><span class="title">Email: </span>dok2308@gmail.com</p>
+            </div>
+        </div>
+        <div class="contact_tab">
+            <div class="tab">
+                <h4>full name</h4>
+                <input type="text" name="full_name" id="full_name" placeholder="name" style="width: 240px;">
+            </div>
+            <div class="tab">
+                <h4>email address</h4>
+                <input type="email" name="email" id="email" placeholder="email"  style="width:230px;">
+            </div>
+            <div class="tab">
+                <h4>subject</h4>
+                <input type="text" name="subject" id="subject" placeholder="subject"  style="width:490px"> 
+            </div>
+            <div class="tab">
+                <h4>message</h4>
+                <textarea name="message" id="message" cols="30" rows="4" placeholder="message"  style="width:490px; border: none; border-bottom: 1px solid; font-family: 'Poppins';"></textarea>
+            </div>
+            
+        </div>
+    </div>
+
+    <script>
+        new Typed('.typed', {
+            strings:["Hello, ", "Welcome to my website.", "こんにちは、", "私のウェブサイトへようこそ。"],
+            typeSpeed: 100,
+            loop: true
+        })
+    </script>
+</body>
+</html>
