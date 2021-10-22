@@ -7,7 +7,7 @@
     <title>About Me</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
 <body>
     <div class="navigation">
         <div class="logo">
-            <h1>C.</h1>
+            <a href="./index.html"><h1>C.</h1></a>
         </div>
         <ul class="nav-items">
             <li>
@@ -57,16 +57,35 @@
                 I am excited to work alongside other amazing programmers and learn so much more!
             </p>
         </div>
-        <div class="keyboard">abc</div>
     </section>
 
     <div id="contact">
-        <h1>Contact</h1>
-        <div class="my_infor">
+        <h1></h1>
+        <div class="my_infor_tab">
             <h2>Let's get in touch</h2>
-            
+            <div class="address">
+                <p><span class="title">Address: </span>Tan Phu Trong Halmet, Tan Phu Tay Village, Mo Cay Bac District, Ben Tre City.</p>
+                <p><span class="title">Phone: </span>+84 387 152 838</p>
+                <p><span class="title">Email: </span>dok2308@gmail.com</p>
+            </div>
         </div>
-        <div class="contact_form">
+        <div class="contact_tab">
+            <div class="tab">
+                <h4>full name</h4>
+                <input type="text" name="full_name" id="full_name" placeholder="name" style="width: 240px;">
+            </div>
+            <div class="tab">
+                <h4>email address</h4>
+                <input type="email" name="email" id="email" placeholder="email"  style="width:230px;">
+            </div>
+            <div class="tab">
+                <h4>subject</h4>
+                <input type="text" name="subject" id="subject" placeholder="subject"  style="width:490px"> 
+            </div>
+            <div class="tab">
+                <h4>message</h4>
+                <textarea name="message" id="message" cols="30" rows="4" placeholder="message"  style="width:490px; border: none; border-bottom: 1px solid; font-family: 'Poppins';"></textarea>
+            </div>
             
         </div>
     </div>
