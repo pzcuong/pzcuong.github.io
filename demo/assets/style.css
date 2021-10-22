@@ -9,11 +9,8 @@ body {
     background-position: right;
     background-size: contain;
     height: 100vh;
-    font-family: 'Poppins',  sans-serif;;
-}
-
-::-webkit-scrollbar { 
-    display: none; 
+    font-family: 'Poppins',  sans-serif;
+    overflow: hidden;
 }
 
 .navigation {
